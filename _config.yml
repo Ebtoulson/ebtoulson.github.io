@@ -1,3 +1,17 @@
-name: EricToulson
-markdown: redcarpet
-pygments: true
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            erictoulson
+tagline:          'erictoulson | tech talk'
+description:      ''
+url:              ''
+
+author:
+  name:           'Eric Toulson'
+
+paginate:         5
