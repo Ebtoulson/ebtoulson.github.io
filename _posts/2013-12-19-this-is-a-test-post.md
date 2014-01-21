@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "This is a test post!"
+title:  "this is a test post!"
 date:   2013-12-18 18:35:31
 img:    https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png
 ---
