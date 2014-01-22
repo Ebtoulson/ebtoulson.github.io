@@ -4,20 +4,22 @@ title:  "responsive images with jekyll"
 date:   2014-01-21 12:00:00
 ---
 
-Posts in [Jekyll](http://jekyllrb.com/) are generated from markdown, you can't provide any styling to images using:
-`![Alt text](/path/to/img.jpg "Optional title")`. You can however use liquid tags, like `include` to help you out. 
+Posts in [Jekyll](http://jekyllrb.com/) are generated from markdown, so it can be pretty difficult to provide additional classes for styling.
+You can however take advantage of liquid tags, like `include` to help you out. 
 
-This is how I got around it:
+This is how I did it:
 
-1) add a new `image.html` in your `_includes` directory
+####1) add a new `image.html` in your `_includes` directory
 
 ```html
+{% raw %}
 <div class="image-wrapper">
     <img src="{{ include.url }}" alt="{{ include.description }}" />
 </div>
+{% endraw %}
 ```
 
-2) add styling in one of your css files
+####2) add styling in one of your css files ***(I'm no designer)***
 
 ```css
 .image-wrapper{
@@ -34,19 +36,19 @@ This is how I got around it:
   display:block;
 }
 ```
-**warning: I'm no designer**
 
-3) whenever you would use the traditional image markdown use the include tag
+####3) whenever you would use the traditional image markdown use the include tag
 
 ```
 ![Octocat](https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png "octocat")
 ```
+would be
 
 ```ruby
-{% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" %}
+{% raw %} {% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" %} {% endraw %}
 ```
 
-Example:
+####Example (resize browser):
 ![Octocat](https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png "octocat")
 
 {% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" %}

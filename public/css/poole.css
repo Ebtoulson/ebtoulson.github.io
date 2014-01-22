@@ -426,3 +426,7 @@ a.pagination-item:hover {
   height:auto;
   display:block;
 }
+
+.post-content {
+  padding-left: .5rem;
+}
