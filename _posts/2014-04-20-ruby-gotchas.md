@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ruby gotchas"
-date:   2014-03-11 12:00:00
+date:   2014-04-20 12:00:00
 ---
 
 I just want to start by saying I've been doing ruby development
