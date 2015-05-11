@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -14,4 +14,4 @@ url:              ''
 author:
   name:           'Eric Toulson'
 
-paginate:         5
+paginate:         3

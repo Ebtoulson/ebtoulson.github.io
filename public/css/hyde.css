@@ -36,12 +36,12 @@ html {
 }
 @media (min-width: 48rem) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (min-width: 58rem) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -57,7 +57,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-color: #ce3d3f;
 }
 @media (min-width: 48rem) {
   .sidebar {
@@ -65,8 +65,25 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 20rem;
+    width: 18rem;
     text-align: left;
+  }
+
+  .sidebar .container {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .sidebar .top {
+    min-height: 20rem;
+    width: 100%;
+  }
+
+  .sidebar .bottom {
+    min-height: 100px;
+    clear: both;
+    bottom: 0;
+    position: absolute;
   }
 }
 
@@ -176,6 +193,19 @@ a.sidebar-nav-item:focus {
  */
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* custom */
+.theme-base-00 .sidebar {
+  background: -webkit-linear-gradient(#de5f5f, #d84141);
+  background: -o-linear-gradient(#de5f5f, #d84141);
+  background: -moz-linear-gradient(#de5f5f, #d84141);
+  background: linear-gradient(#de5f5f, #d84141);
+}
+.theme-base-00 .content a,
+.theme-base-00 .related-posts li a:hover {
+  color: #d84141;
+}
+
 
 /* Red */
 .theme-base-08 .sidebar {

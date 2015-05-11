@@ -167,7 +167,6 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
@@ -309,7 +308,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #de5f5f;
 }
 .page-title,
 .post-title {
@@ -402,14 +401,15 @@ a.pagination-item:hover {
 }
 
 .social {
-  display:
-  inline-block;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
   color: #7a7a7a;
 }
 
 .social li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 15px;
   list-style: none;
 }
 
@@ -429,4 +429,8 @@ a.pagination-item:hover {
 
 .post-content {
   padding-left: .5rem;
+}
+
+#disqus_thread {
+  border-top: 1px solid #eee;
 }

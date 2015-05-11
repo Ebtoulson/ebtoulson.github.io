@@ -2,6 +2,10 @@
 layout: post
 title:  "responsive images with jekyll"
 date:   2014-01-21 12:00:00
+tags:
+- coding
+- ruby
+- jekyll
 ---
 
 Posts in [Jekyll](http://jekyllrb.com/) are generated from markdown, so it can be pretty difficult to provide additional classes for styling.

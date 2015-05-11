@@ -2,6 +2,10 @@
 layout: post
 title:  "ruby gotchas"
 date:   2014-04-20 12:00:00
+tags:
+- coding
+- ruby
+- gotchas
 ---
 
 I just want to start by saying I've been doing ruby development
