@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -15,3 +15,8 @@ author:
   name:           'Eric Toulson'
 
 paginate:         3
+
+gems:             [jekyll-paginate]
+
+redcarpet:
+  extensions: []
