@@ -18,15 +18,15 @@ IKEA to the rescue with its [Gerton Table Top](http://www.ikea.com/us/en/catalog
 
 The rest is just showing the process I used to assemble my new geekdesk:
 
-####step 1: assembling the frame. 
+#### step 1: assembling the frame. 
 Nothing to really say here, just follow the instructions.
 
-####step 2: mounting the desktop
+#### step 2: mounting the desktop
 First you want to put the desktop on the frame and center it.
 To do this, simply get a tap measure and make sure you have the same distance from the frame to edge of the desktop on the left/right and front/back (protip: measure in multiple spots).
 Next, you want to get a small wood drill bit and drill pilot holes for all of the screw holes in the frame. Once the pilot holes are drilled, screw in all of the screws.
 
-####step 3: finishing the wood
+#### step 3: finishing the wood
 There are two different approaches to finishing the wood, penetrating vs coating.
 While penetrating doesn't really help again scratches, I decided to go with boiled linseed oil just
 because I didn't want a clear coat on the wood and its food-grade so I could use it on cutting boards or knife handles.
@@ -35,7 +35,7 @@ Repeat this process at least 3 times, waiting for the oil to dry between coating
 {% include image.html url="https://lh4.googleusercontent.com/-F_cdbmXhGx8/Ut3BgUP384I/AAAAAAAAAp4/PzUG_sitktQ/w1084-h813-no/unfinished.jpg" description="Untreated Desktop" %}
 {% include image.html url="https://lh4.googleusercontent.com/-4Yp1OWzca2Y/Ut3Bh2LvwxI/AAAAAAAAApE/nLQl6YyNuZA/w1084-h813-no/20131229_121241.jpg" description="3 coatings of linseed oil" %}
 
-####step 4: profit
+#### step 4: profit
 Hook up everything and enjoy your new standing desk.
 {% include image.html url="https://lh5.googleusercontent.com/-Wu25IUjVtjQ/Ut3BiPnZHwI/AAAAAAAAApI/HSjnpnPJjSM/w1084-h813-no/20140101_174516.jpg" description="Final Workstation" %}
 

@@ -16,7 +16,7 @@ A few weeks ago, I found an interesting post that had a collection of these 'got
 from El Passion - [Ruby Gotchas](http://blog.elpassion.com/ruby-gotchas/).
 I'd like to expand on this post but I highly recommend taking a look at the original article.
 
-##and vs && with render/redirect_to
+## and vs && with render/redirect_to
 
 To avoid muliple `render`s or `redirect_to`s, you'll want to
 `return` to stop the rest of the code from running.
@@ -58,15 +58,15 @@ Because of this, you can't use string interpolation with single quotes.
 => "The current time is 2014-04-20 20:27:09 -0400"
 ```
 
-###Best practices
+### Best practices
 This just depends on your personal style, I prefer double-quotes unless your
 string literal contains `"` or escape characters you want to suppress.
 
-###Performance
+### Performance
 There used to be a performance difference between `'` vs `"` but if you
 are using `>= 1.9.3` it [doesn't matter](http://stackoverflow.com/questions/1836467/is-there-a-performance-gain-in-using-single-quotes-vs-double-quotes-in-ruby/1836838#1836838).
 
-##`:+` vs `&:+`
+## `:+` vs `&:+`
 I wouldn't really call this a gotcha but just something you might want to know.
 In `inject`/`reduce` you don't need to turn your symbol into a `proc`.
 I think this looks a little better but it also gives you a little performance boost.
@@ -79,14 +79,14 @@ I think this looks a little better but it also gives you a little performance bo
 => 10
 ```
 
-###Performance
+### Performance
 ```ruby
      real
 &:+ (  0.000075)
 :+  (  0.000046)
 ```
 
-###Note
+### Note
 This seems to only work for `inject`/`reduce`
 
 ```ruby

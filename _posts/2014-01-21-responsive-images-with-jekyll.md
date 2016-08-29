@@ -13,7 +13,7 @@ You can however take advantage of liquid tags, like `include` to help you out.
 
 This is how I did it:
 
-####1) add a new `image.html` in your `_includes` directory
+#### 1) add a new `image.html` in your `_includes` directory
 
 ```html
 {% raw %}
@@ -23,7 +23,7 @@ This is how I did it:
 {% endraw %}
 ```
 
-####2) add styling in one of your css files ***(I'm no designer)***
+#### 2) add styling in one of your css files ***(I'm no designer)***
 
 ```css
 .image-wrapper{
@@ -41,7 +41,7 @@ This is how I did it:
 }
 ```
 
-####3) whenever you would use the traditional image markdown use the include tag
+#### 3) whenever you would use the traditional image markdown use the include tag
 
 ```
 ![Octocat](https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png "octocat")
@@ -52,7 +52,7 @@ would be
 {% raw %} {% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" %} {% endraw %}
 ```
 
-####Example (resize browser):
+#### Example (resize browser):
 ![Octocat](https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png "octocat")
 
 {% include image.html url="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" description="octocat" %}
