@@ -41,7 +41,7 @@ class DashboardController < ApplicationController
 end
 ```
 
-### single quote vs double quote
+### single quote vs double quote 
 
 The main difference between single quotes and double quotes is that
 single quotes are for literals and auto-escapes escape characters in strings.
